@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to https://edge3.edge.active.jobready.io",
+        "step 2: Login",
+        "step 3: Navigate to /",
+        "step 4: Click on link Claims",
+        "step 5: Click on link SmartFormSchedule -> Navigate to page 'form endpoint#*/smart form schedule'",
+        "step 6: Select option with input value from select ClaimStatus",
+        "step 7: Select option with input value from select AACRegion",
+        "step 8: Click on link Apply",
+        "step 9: Click on link SubmitSmartForms",
+        "step 10: Click on link Close",
+        "step 11: Click on link Clear",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}

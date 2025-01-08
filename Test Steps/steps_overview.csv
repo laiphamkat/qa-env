@@ -1,0 +1,38 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Navigate and Submit Smart Forms for Claims,"Login to the application, navigate to claims, fill out the smart form, and verify the endpoint for successful submission.","Step 1: Navigate to https://edge3.edge.active.jobready.io
+Step 2: Login
+Step 3: Navigate to /
+Step 4: Click on link Claims
+Step 5: Click on link SmartFormSchedule -> Navigate to page 'form endpoint#*/smart form schedule'
+Step 6: Select option with input value from select ClaimStatus
+Step 7: Select option with input value from select AACRegion
+Step 8: Click on link Apply
+Step 9: Click on link SubmitSmartForms
+Step 10: Click on link Close
+Step 11: Click on link Clear
+Step 12: Take full page screenshot as checkpoint
+",High,NEW
+2,Bulk Reassign and Assess Smart Form Applications,"Login, bulk reassign applications, assess claims, and manage submissions while verifying the user registration page.","Step 1: Navigate to https://edge3.edge.active.jobready.io
+Step 2: Login
+Step 3: Navigate to /
+Step 4: Click on link SmartFormApplications -> Navigate to page 'dynamic content#smart forms/*'
+Step 5: Click on button Actions
+Step 6: Click on link BulkReAssign
+Step 7: Select option with input value from select Assignee
+Step 8: Click on button Submit
+Step 9: Click on link Active -> Navigate to page 'user registration page#*/*'
+Step 10: Click on button SmartForms
+Step 11: Click on link ApplicationForms
+Step 12: Select option with input value from select LodgementType
+Step 13: Click on input SmartFormsCheckbox
+Step 14: Click on link Close
+Step 15: Click on link Claims
+Step 16: Click on button Assess
+Step 17: Click on link AssessSchedule
+Step 18: Click on link No
+Step 19: Click on button AddPredict
+Step 20: Click on link AddRecurringClaims -> Navigate to page 'form submission#*/*/*/new'
+Step 21: Select option with input value from select Type
+Step 22: Click on link Cancel -> Navigate to page 'user registration page#*/*'
+Step 23: Take full page screenshot as checkpoint
+",High,NEW
