@@ -1,0 +1,46 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+4,Access Insights Section and Validate Homepage,"Navigate to the homepage, click on insights, and verify the return to the homepage.","Step 1: Navigate to *
+Step 2: Click on image Icon
+Step 3: Click on div HomepageRow
+Step 4: Click on link Insights -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+1,Access Retirement Calculator and Validate Home Page,"Navigate to the homepage, access the retirement calculator, input financial data, and verify the return to the homepage.","Step 1: Navigate to *
+Step 2: Click on link retirementCalculator (RetirementCalculator) -> Navigate to page 'calculator#*/retirementcalculator'
+Step 3: Click on input userFinancialData (UserAge)
+Step 4: Enter input value in input userFinancialData (UserAge)
+Step 5: Click on input userFinancialData (UserAnnualIncome) -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",Medium,NEW
+3,Explore Investment Finder and Return to Retirement Calculator,"Navigate through various tools including the retirement calculator and investment finder, then return to the homepage for verification.","Step 1: Navigate to *
+Step 2: Click on link RetirementCalculator2
+Step 3: Click on link RetirementCalculator2 -> Navigate to page 'calculator#*/retirementcalculator'
+Step 4: Click on link InvestmentFinder -> Navigate to page 'investment product finder#*/*/*'
+Step 5: Click on link RetirementCalculator -> Navigate to page 'calculator#*/retirementcalculator'
+Step 6: Click on link WelcomeToFidelity -> Navigate to page 'homepage#*'
+Step 7: Click on link RetirementCalculator2 -> Navigate to page 'calculator#*/retirementcalculator'
+Step 8: Click on div InputRow
+Step 9: Click on input userFinancialData (UserAge2) -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",Low,NEW
+2,Utilize Retirement Calculator with Multiple Inputs and Reset,"Navigate to the retirement calculator, input various financial data multiple times, and reset to the homepage while validating each step.","Step 1: Navigate to *
+Step 2: Click on link retirementCalculator (RetirementCalculator) -> Navigate to page 'calculator#*/retirementcalculator'
+Step 3: Click on input userFinancialData (UserAge2)
+Step 4: Enter input value in input userFinancialData (UserAge2)
+Step 5: Click on input userFinancialData (UserAnnualIncome2)
+Step 6: Enter input value in input userFinancialData (UserAnnualIncome2)
+Step 7: Click on input userFinancialData (UserRetirementSavings)
+Step 8: Enter input value in input userFinancialData (UserRetirementSavings)
+Step 9: Click on input userFinancialData (UserMonthlySavings)
+Step 10: Enter input value in input userFinancialData (UserMonthlySavings)
+Step 11: Click on link navigationActions (Next)
+Step 12: Click on input userFinancialData (UserIncomeOther)
+Step 13: Enter input value in input userFinancialData (UserIncomeOther)
+Step 14: Click on link navigationActions (Next)
+Step 15: Adjust div sliderControls by input value (InvestmentStyleSlider)
+Step 16: Click on link navigationActions (Next)
+Step 17: Adjust div sliderControls by input value (RequiredIncomeSlider)
+Step 18: Click on link navigationActions (SeeMyResults)
+Step 19: Click on link startOver (StartOver) -> Navigate to page ''
+Step 20: Take full page screenshot as checkpoint
+",Trivial,NEW
