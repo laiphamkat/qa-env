@@ -102,8 +102,8 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 10-Enter input value in input u
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/link_navigationActions"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/link_navigationActions', ['link_navigationActions_internalRoleLinkName': link_navigationActions_internalRoleLinkName]))
+// Bind values to the variables in the locators of "Archived/Archived_20250203/Dynamic Objects/Page_calculator/link_navigationActions"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Dynamic Objects/Page_calculator/link_navigationActions', ['link_navigationActions_internalRoleLinkName': link_navigationActions_internalRoleLinkName]))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 11-Click on link navigationActions Next.png')
 
@@ -129,8 +129,8 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 13-Enter input value in input u
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/link_navigationActions"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/link_navigationActions', ['link_navigationActions_internalRoleLinkName': link_navigationActions_internalRoleLinkName_1]))
+// Bind values to the variables in the locators of "Archived/Archived_20250203/Dynamic Objects/Page_calculator/link_navigationActions"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Dynamic Objects/Page_calculator/link_navigationActions', ['link_navigationActions_internalRoleLinkName': link_navigationActions_internalRoleLinkName_1]))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 14-Click on link navigationActions Next.png')
 
@@ -138,7 +138,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 14-Click on link navigationActi
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-TrueTestScripts.setSliderValue(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/div_sliderControls'), Double.valueOf(div_sliderControls))
+TrueTestScripts.setSliderValue(findTestObject('Archived/Archived_20250203/Dynamic Objects/Page_calculator/div_sliderControls'), Double.valueOf(div_sliderControls))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 15-Adjust div sliderControls by input value InvestmentStyleSlider.png')
 
@@ -146,8 +146,8 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 15-Adjust div sliderControls by
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/link_navigationActions"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/link_navigationActions', ['link_navigationActions_internalRoleLinkName': link_navigationActions_internalRoleLinkName_2]))
+// Bind values to the variables in the locators of "Archived/Archived_20250203/Dynamic Objects/Page_calculator/link_navigationActions"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Dynamic Objects/Page_calculator/link_navigationActions', ['link_navigationActions_internalRoleLinkName': link_navigationActions_internalRoleLinkName_2]))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 16-Click on link navigationActions Next.png')
 
@@ -155,7 +155,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 16-Click on link navigationActi
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-TrueTestScripts.setSliderValue(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/div_sliderControls'), Double.valueOf(div_sliderControls_1))
+TrueTestScripts.setSliderValue(findTestObject('Archived/Archived_20250203/Dynamic Objects/Page_calculator/div_sliderControls'), Double.valueOf(div_sliderControls_1))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 17-Adjust div sliderControls by input value RequiredIncomeSlider.png')
 
@@ -163,8 +163,8 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 17-Adjust div sliderControls by
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/link_navigationActions"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/link_navigationActions', ['link_navigationActions_internalRoleLinkName': link_navigationActions_internalRoleLinkName_3]))
+// Bind values to the variables in the locators of "Archived/Archived_20250203/Dynamic Objects/Page_calculator/link_navigationActions"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Dynamic Objects/Page_calculator/link_navigationActions', ['link_navigationActions_internalRoleLinkName': link_navigationActions_internalRoleLinkName_3]))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 18-Click on link navigationActions SeeMyResults.png')
 
@@ -172,7 +172,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 18-Click on link navigationActi
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/link_startOver'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Dynamic Objects/Page_calculator/link_startOver'))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 19-Click on link startOver StartOver - Navigate to page .png')
 

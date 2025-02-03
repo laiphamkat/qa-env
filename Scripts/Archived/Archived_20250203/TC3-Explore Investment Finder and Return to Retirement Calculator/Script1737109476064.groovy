@@ -22,7 +22,7 @@ TrueTestScripts.navigate("${GlobalVariable.path_param_1}")
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_homepage/link_RetirementCalculator2'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Page_homepage/link_RetirementCalculator2'))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 2-Click on link RetirementCalculator2.png')
 
@@ -30,7 +30,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 2-Click on link RetirementCalcu
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_homepage/link_RetirementCalculator2'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Page_homepage/link_RetirementCalculator2'))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 3-Click on link RetirementCalculator2 - Navigate to page calculatorretirementcalculator.png')
 
@@ -38,7 +38,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 3-Click on link RetirementCalcu
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_calculator/link_InvestmentFinder'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Page_calculator/link_InvestmentFinder'))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 4-Click on link InvestmentFinder - Navigate to page investment product finder.png')
 
@@ -46,7 +46,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 4-Click on link InvestmentFinde
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_investment_product_finder/link_RetirementCalculator'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Page_investment_product_finder/link_RetirementCalculator'))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 5-Click on link RetirementCalculator - Navigate to page calculatorretirementcalculator.png')
 
@@ -54,7 +54,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 5-Click on link RetirementCalcu
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_calculator/link_WelcomeToFidelity'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Page_calculator/link_WelcomeToFidelity'))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 6-Click on link WelcomeToFidelity - Navigate to page homepage.png')
 
@@ -62,7 +62,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 6-Click on link WelcomeToFideli
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_homepage/link_RetirementCalculator2'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Page_homepage/link_RetirementCalculator2'))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 7-Click on link RetirementCalculator2 - Navigate to page calculatorretirementcalculator.png')
 
@@ -70,7 +70,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 7-Click on link RetirementCalcu
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_calculator/div_InputRow'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Page_calculator/div_InputRow'))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 8-Click on div InputRow.png')
 

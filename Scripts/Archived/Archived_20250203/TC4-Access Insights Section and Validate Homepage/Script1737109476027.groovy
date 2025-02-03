@@ -22,7 +22,7 @@ TrueTestScripts.navigate("${GlobalVariable.path_param_1}")
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_homepage/image_Icon'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Page_homepage/image_Icon'))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 2-Click on image Icon.png')
 
@@ -30,7 +30,7 @@ WebUI.takeScreenshot(reportLocation + '/TC4/Step 2-Click on image Icon.png')
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_homepage/div_HomepageRow'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Page_homepage/div_HomepageRow'))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 3-Click on div HomepageRow.png')
 
@@ -38,7 +38,7 @@ WebUI.takeScreenshot(reportLocation + '/TC4/Step 3-Click on div HomepageRow.png'
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_homepage/link_Insights'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250203/Page_homepage/link_Insights'))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 4-Click on link Insights - Navigate to page .png')
 
