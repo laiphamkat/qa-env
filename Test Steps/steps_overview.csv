@@ -1,0 +1,12 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+49,Navigate and Input Financial Data in Retirement Calculator,"Access the retirement calculator page, input financial data multiple times, and navigate back to the home page while verifying the navigation.","Step 1: Navigate to */retirementcalculator
+Step 2: Click on input userFinancialInputs (UserAge)
+Step 3: Enter input value in input userFinancialInputs (UserAge)
+Step 4: Click on input userFinancialInputs (UserAnnualIncome)
+Step 5: Enter input value in input userFinancialInputs (UserAnnualIncome)
+Step 6: Click on link navigationMenu (navigation)
+Step 7: Click on input userFinancialInputs (UserRetirementSavings)
+Step 8: Enter input value in input userFinancialInputs (UserRetirementSavings)
+Step 9: Click on input userFinancialInputs (UserMonthlySavings) -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",High,NEW
