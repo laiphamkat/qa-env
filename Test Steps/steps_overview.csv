@@ -1,12 +1,202 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-49,Navigate and Input Financial Data in Retirement Calculator,"Access the retirement calculator page, input financial data multiple times, and navigate back to the home page while verifying the navigation.","Step 1: Navigate to */retirementcalculator
-Step 2: Click on input userFinancialInputs (UserAge)
-Step 3: Enter input value in input userFinancialInputs (UserAge)
-Step 4: Click on input userFinancialInputs (UserAnnualIncome)
-Step 5: Enter input value in input userFinancialInputs (UserAnnualIncome)
-Step 6: Click on link navigationMenu (navigation)
-Step 7: Click on input userFinancialInputs (UserRetirementSavings)
-Step 8: Enter input value in input userFinancialInputs (UserRetirementSavings)
-Step 9: Click on input userFinancialInputs (UserMonthlySavings) -> Navigate to page ''
-Step 10: Take full page screenshot as checkpoint
+58,Verify Access to Price and Performance Page,"Navigate to homepage, click on price and performance, and verify the page.","Step 1: Navigate to *
+Step 2: Click on link PriceAndPerformance -> Navigate to page 'price and performance#*/priceandperformance'
+Step 3: Take full page screenshot as checkpoint
 ",High,NEW
+55,Verify Fund Availability for American Equity,"Navigate to partnering fund codes, input fund details, and verify fund availability.","Step 1: Navigate to */*/*
+Step 2: Click on input FundNameCodeTicker
+Step 3: Hover over tr object
+Step 4: Enter input value in input FundNameCodeTicker
+Step 5: Click on link AmericanEquity -> Navigate to page 'product fund availability#*/*/*/*'
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+63,Search for Company Info and Return to Home Page,"Navigate to homepage, search for company info, access KYP, and verify return to home page.","Step 1: Navigate to *
+Step 2: Click on link Search
+Step 3: Click on input Search
+Step 4: Enter input value in input Search
+Step 5: Click on link companyInfo (americanEquity) -> Navigate to page 'product fund availability#*/*/*/*'
+Step 6: Click on link GetKYP -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
+61,Calculate Allocations with Tax Smart Calculator,"Navigate to tax smart calculator, add funds, input allocation percentage, and verify calculations.","Step 1: Navigate to *
+Step 2: Click on link TaxSmartCalculator -> Navigate to page 'calculator#*/taxsmartcalculator'
+Step 3: Click on button AddFunds
+Step 4: Click on input FundNameOrCode
+Step 5: Enter input value in input FundNameOrCode
+Step 6: Click on input FidelityBalancedClass
+Step 7: Click on button AddSelectedFunds
+Step 8: Click on input AllocationPercentage
+Step 9: Enter input value in input AllocationPercentage2
+Step 10: Click on main object
+Step 11: Select option with input value from select Province
+Step 12: Click on button Calculate
+Step 13: Take full page screenshot as checkpoint
+",High,NEW
+56,Search for Investment Funds and Verify Results,"Navigate to homepage, perform an investment finder search, and verify the investment funds page.","Step 1: Navigate to *
+Step 2: Click on link InvestmentFinderSearch -> Navigate to page 'investment funds#*/*/*/*'
+Step 3: Click on button SeriesB
+Step 4: Click on link SeriesT5
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+49,Navigate and Input Financial Data in Retirement Calculator,"Access the retirement calculator page, input financial data multiple times, and navigate back to the home page while verifying the navigation.","Step 1: Navigate to */retirementcalculator
+Step 2: Click on input userFinancialData (MonthlySavings)
+Step 3: Enter input value in input userFinancialData (MonthlySavings)
+Step 4: Click on input userFinancialData (UserAnnualIncome)
+Step 5: Enter input value in input userFinancialData (UserAnnualIncome)
+Step 6: Click on link navigation (Next)
+Step 7: Click on input userFinancialData (MonthlySavings)
+Step 8: Enter input value in input userFinancialData (MonthlySavings)
+Step 9: Click on input userFinancialData (MonthlySavings) -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",High,STABLE
+53,Search for Company Information and Return to Home Page,"Navigate to homepage, search for a company, access fund availability, and return to the home page.","Step 1: Navigate to *
+Step 2: Click on link Search
+Step 3: Click on input Search
+Step 4: Enter input value in input Search
+Step 5: Click on link companyInfo (AmericanEquity) -> Navigate to page 'product fund availability#*/*/*/*'
+Step 6: Click on div Performance
+Step 7: Click on div Performance -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+52,Access Fund Facts for ETFs from Homepage,"Navigate to homepage, search for fund facts, and verify the fund facts page.","Step 1: Navigate to *
+Step 2: Click on link Search
+Step 3: Click on link FundFactsETF -> Navigate to page 'fund facts#*/*'
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+54,Explore Insights and Verify Video Content,"Navigate to insights, browse articles, and verify video content related to market trends.","Step 1: Navigate to */*
+Step 2: Click on link Insights -> Navigate to page 'insights#*/insights'
+Step 3: Click on link BrowseLibrary -> Navigate to page 'insights#*/insights/*'
+Step 4: Click on link MarketInsights -> Navigate to page 'insights article#*/insights/articles/timmer-global-macro-view-jan13'
+Step 5: Click on link ExploringMarketTrends -> Navigate to page 'insights article#*/insights/articles/timmer-global-macro-view-nov18'
+Step 6: Click on link NavigatingInvestmentLandscape -> Navigate to page 'insights article#*/insights/articles/timmer-global-macro-view-oct28'
+Step 7: Click on link NavigatingChangingTides -> Navigate to page 'insights article#*/insights/articles/fed-outlook-on-jobs-and-inflation'
+Step 8: Click on link MorningstarRatedFunds
+Step 9: Click on link MorningstarRatedFunds -> Navigate to page 'star ratings#*/*'
+Step 10: Click on div YearsOfFunds
+Step 11: Click on link ViewFund
+Step 12: Click on link ArticlesWebcastsPodcasts -> Navigate to page 'insights#*/insights/*'
+Step 13: Click on link TheUpsideVideo -> Navigate to page 'insights video#*/insights/videos/invested-in-wellness-jan8'
+Step 14: Take full page screenshot as checkpoint
+",Medium,NEW
+57,Sign Up for TFSA Insights Newsletter,"Navigate to TFSA basics, input email and consent, sign up, and verify return to home page.","Step 1: Navigate to *
+Step 2: Click on link TFSABasics -> Navigate to page 'insights article#*/insights/articles/tfsa'
+Step 3: Click on input EmailAddress
+Step 4: Enter input value in input EmailAddress
+Step 5: Click on input IndividualInvestor
+Step 6: Select option with input value from select DealerSection
+Step 7: Click on input ConsentToReceiving
+Step 8: Click on button SignUp -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",Medium,NEW
+60,Search and Verify Investment Funds from Watchlist,"Navigate to homepage, search for company info, access watchlist, and verify investment funds.","Step 1: Navigate to *
+Step 2: Click on link Search
+Step 3: Enter input value in input Search
+Step 4: Click on link companyInfo (AmericanEquity) -> Navigate to page 'product fund availability#*/*/*/*'
+Step 5: Click on link WatchList -> Navigate to page 'watchlist management#*/*'
+Step 6: Click on link SmallCapAmerica -> Navigate to page 'investment funds#*/*/*/*'
+Step 7: Take full page screenshot as checkpoint
+",Medium,NEW
+64,Verify Fund Name Code Ticker and Return to Home Page,"Navigate to price and performance, input fund ticker, and verify return to home page.","Step 1: Navigate to */priceandperformance
+Step 2: Click on input FundNameCodeTicker
+Step 3: Click on input FundNameCodeTicker
+Step 4: Click on input FundNameCodeTicker -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",Medium,NEW
+51,Manage My List for Funds and Verify Performance Page,"Navigate to price and performance, add fund to my list, remove it, and verify return to the performance page.","Step 1: Navigate to */priceandperformance
+Step 2: Enter input value in input FundNameCodeTicker2
+Step 3: Enter input value in input FundNameCodeTicker2
+Step 4: Hover over tr object
+Step 5: Click on button AddToMyList
+Step 6: Click on button Close2
+Step 7: Click on link MyList
+Step 8: Hover over tr object
+Step 9: Click on button RemoveFromMyList
+Step 10: Click on button Close3
+Step 11: Click on link ClientLogin
+Step 12: Take full page screenshot as checkpoint
+",Low,NEW
+50,Add Fund to Watchlist and Return to Home Page,"Navigate to price and performance, input fund details, add to watchlist, close the modal, and verify return to home page.","Step 1: Navigate to */priceandperformance
+Step 2: Enter input value in input FundNameCodeTicker
+Step 3: Enter input value in input FundNameCodeTicker
+Step 4: Hover over tr object
+Step 5: Click on button AddToWatchlist
+Step 6: Click on button Close -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",Low,NEW
+59,Calculate Taxes Using Tax Calculator,"Navigate to tax calculator, input financial data, calculate refund, and verify results.","Step 1: Navigate to *
+Step 2: Click on link TaxCalculator -> Navigate to page 'tax calculator#*/taxcalculator'
+Step 3: Click on tr object
+Step 4: Select option with input value from select Province
+Step 5: Click on input EmploymentIncome
+Step 6: Enter input value in input EmploymentIncome
+Step 7: Click on input InterestIncome
+Step 8: Enter input value in input InterestIncome
+Step 9: Click on input DividendIncome
+Step 10: Enter input value in input DividendIncome
+Step 11: Click on input CapitalGains
+Step 12: Enter input value in input CapitalGains
+Step 13: Click on input CapitalGainsPre
+Step 14: Enter input value in input CapitalGainsPre
+Step 15: Click on input CapitalGainsPost
+Step 16: Click on input TaxesPaid
+Step 17: Enter input value in input TaxesPaid
+Step 18: Click on input RRSPContributions
+Step 19: Enter input value in input RRSPContributions
+Step 20: Click on button CalculateRefund
+Step 21: Take full page screenshot as checkpoint
+",Trivial,NEW
+62,Use Retirement Calculator and Navigate through Application,"Navigate to retirement calculator, input financial data, and verify return to home page.","Step 1: Navigate to *
+Step 2: Click on link RetirementCalculator -> Navigate to page 'calculator#*/retirementcalculator'
+Step 3: Click on input userFinancialData (UserAge)
+Step 4: Enter input value in input userFinancialData (UserAge)
+Step 5: Click on input userFinancialData (UserAnnualIncome)
+Step 6: Enter input value in input userFinancialData (UserAnnualIncome)
+Step 7: Enter financial data and navigate through the application
+	- Step 1: Click on input userFinancialData
+	- Step 2: Enter input value in input userFinancialData
+	- Step 3: Click on input userFinancialData
+	- Step 4: Enter input value in input userFinancialData
+	- Step 5: Click on link navigation
+	- Step 6: Click on input userFinancialData
+Step 8: Click on input userFinancialData (UserIncomeOther)
+Step 9: Enter input value in input userFinancialData (UserIncomeOther)
+Step 10: Click on link navigation (Next)
+Step 11: Click on div sliderComponent (Slider)
+Step 12: Click on link navigation (Next)
+Step 13: Click on div sliderComponent (slider)
+Step 14: Click on link navigation (seeMyResults) -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",Trivial,NEW
+65,Explore Video Insights and Filter Content,"Navigate to insights, explore videos, apply filters, and verify video content.","Step 1: Navigate to */insights/*
+Step 2: Click on link TheUpsideInvestedInWellness -> Navigate to page 'insights video#*/insights/videos/invested-in-wellness-jan8'
+Step 3: Click on link Insights -> Navigate to page 'insights#*/insights'
+Step 4: Click on link BrowseLibrary -> Navigate to page 'insights#*/insights/*'
+Step 5: Click on button Next
+Step 6: Click on button Videos
+Step 7: Click on button Next
+Step 8: Click on button Next
+Step 9: Click on summary FilterAlternativesAsset
+Step 10: Click on button ClearAllFilters
+Step 11: Click on link ArticlesWebcastsPodcasts
+Step 12: Click on div FilterDropdown
+Step 13: Click on div FilterDropdown
+Step 14: Click on div FilterDropdown
+Step 15: Click on div FilterDropdown
+Step 16: Click on div FilterDropdown
+Step 17: Click on div FilterDropdown
+Step 18: Click on div FilterDropdown
+Step 19: Click on div FilterDropdown
+Step 20: Click on button Next
+Step 21: Click on button Next
+Step 22: Click on button Next
+Step 23: Click on link TheUpsideInvestedInWellness2 -> Navigate to page 'insights video#*/insights/videos/invested-in-wellness-nov20'
+Step 24: Click on link ArticlesWebcastsPodcasts -> Navigate to page 'insights#*/insights/*'
+Step 25: Click on button Next
+Step 26: Click on button Next
+Step 27: Click on button Next
+Step 28: Click on button Next
+Step 29: Click on button Next
+Step 30: Click on button Next
+Step 31: Click on link TheUpsideInvestedInWellness3 -> Navigate to page 'insights video#*/insights/videos/invested-in-wellness-oct30'
+Step 32: Take full page screenshot as checkpoint
+",Trivial,NEW

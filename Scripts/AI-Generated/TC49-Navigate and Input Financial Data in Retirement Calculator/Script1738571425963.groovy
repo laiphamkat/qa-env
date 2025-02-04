@@ -18,77 +18,77 @@ def setup() {
 
 TrueTestScripts.navigate("${GlobalVariable.path_param_1}/retirementcalculator")
 
-"Step 2: Click on input userFinancialInputs (UserAge)"
+"Step 2: Click on input userFinancialData (MonthlySavings)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs', ['input_userFinancialInputs_internalLabel': input_userFinancialInputs_internalLabel]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData', ['input_userFinancialData_internalLabel': input_userFinancialData_internalLabel]))
 
-WebUI.takeScreenshot(reportLocation + '/TC49/Step 2-Click on input userFinancialInputs UserAge.png')
+WebUI.takeScreenshot(reportLocation + '/TC49/Step 2-Click on input userFinancialData MonthlySavings.png')
 
-"Step 3: Enter input value in input userFinancialInputs (UserAge)"
-
-// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
-
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs"
-WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs', ['input_userFinancialInputs_internalLabel': input_userFinancialInputs_internalLabel_1]), input_userFinancialInputs)
-
-WebUI.takeScreenshot(reportLocation + '/TC49/Step 3-Enter input value in input userFinancialInputs UserAge.png')
-
-"Step 4: Click on input userFinancialInputs (UserAnnualIncome)"
+"Step 3: Enter input value in input userFinancialData (MonthlySavings)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs', ['input_userFinancialInputs_internalLabel': input_userFinancialInputs_internalLabel_2]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData"
+WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData', ['input_userFinancialData_internalLabel': input_userFinancialData_internalLabel_1]), input_userFinancialData)
 
-WebUI.takeScreenshot(reportLocation + '/TC49/Step 4-Click on input userFinancialInputs UserAnnualIncome.png')
+WebUI.takeScreenshot(reportLocation + '/TC49/Step 3-Enter input value in input userFinancialData MonthlySavings.png')
 
-"Step 5: Enter input value in input userFinancialInputs (UserAnnualIncome)"
-
-// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
-
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs"
-WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs', ['input_userFinancialInputs_internalLabel': input_userFinancialInputs_internalLabel_3]), input_userFinancialInputs_1)
-
-WebUI.takeScreenshot(reportLocation + '/TC49/Step 5-Enter input value in input userFinancialInputs UserAnnualIncome.png')
-
-"Step 6: Click on link navigationMenu (navigation)"
+"Step 4: Click on input userFinancialData (UserAnnualIncome)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/link_navigationMenu"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/link_navigationMenu', ['link_navigationMenu_internalRoleLinkName': link_navigationMenu_internalRoleLinkName]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData', ['input_userFinancialData_internalLabel': input_userFinancialData_internalLabel_2]))
 
-WebUI.takeScreenshot(reportLocation + '/TC49/Step 6-Click on link navigationMenu navigation.png')
+WebUI.takeScreenshot(reportLocation + '/TC49/Step 4-Click on input userFinancialData UserAnnualIncome.png')
 
-"Step 7: Click on input userFinancialInputs (UserRetirementSavings)"
-
-// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
-
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs', ['input_userFinancialInputs_internalLabel': input_userFinancialInputs_internalLabel_4]))
-
-WebUI.takeScreenshot(reportLocation + '/TC49/Step 7-Click on input userFinancialInputs UserRetirementSavings.png')
-
-"Step 8: Enter input value in input userFinancialInputs (UserRetirementSavings)"
+"Step 5: Enter input value in input userFinancialData (UserAnnualIncome)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs"
-WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs', ['input_userFinancialInputs_internalLabel': input_userFinancialInputs_internalLabel_5]), input_userFinancialInputs_2)
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData"
+WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData', ['input_userFinancialData_internalLabel': input_userFinancialData_internalLabel_3]), input_userFinancialData_1)
 
-WebUI.takeScreenshot(reportLocation + '/TC49/Step 8-Enter input value in input userFinancialInputs UserRetirementSavings.png')
+WebUI.takeScreenshot(reportLocation + '/TC49/Step 5-Enter input value in input userFinancialData UserAnnualIncome.png')
 
-"Step 9: Click on input userFinancialInputs (UserMonthlySavings) -> Navigate to page ''"
+"Step 6: Click on link navigation (Next)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialInputs', ['input_userFinancialInputs_internalLabel': input_userFinancialInputs_internalLabel_6]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/link_navigation"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/link_navigation', ['link_navigation_internalRoleLinkName': link_navigation_internalRoleLinkName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC49/Step 9-Click on input userFinancialInputs UserMonthlySavings - Navigate to page .png')
+WebUI.takeScreenshot(reportLocation + '/TC49/Step 6-Click on link navigation Next.png')
+
+"Step 7: Click on input userFinancialData (MonthlySavings)"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
+
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData', ['input_userFinancialData_internalLabel': input_userFinancialData_internalLabel_4]))
+
+WebUI.takeScreenshot(reportLocation + '/TC49/Step 7-Click on input userFinancialData MonthlySavings.png')
+
+"Step 8: Enter input value in input userFinancialData (MonthlySavings)"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
+
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData"
+WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData', ['input_userFinancialData_internalLabel': input_userFinancialData_internalLabel_5]), input_userFinancialData_2)
+
+WebUI.takeScreenshot(reportLocation + '/TC49/Step 8-Enter input value in input userFinancialData MonthlySavings.png')
+
+"Step 9: Click on input userFinancialData (MonthlySavings) -> Navigate to page ''"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/retirementcalculator?/?(?:#.*)?(?:\\?.*)?$', true)
+
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_calculator/input_userFinancialData', ['input_userFinancialData_internalLabel': input_userFinancialData_internalLabel_6]))
+
+WebUI.takeScreenshot(reportLocation + '/TC49/Step 9-Click on input userFinancialData MonthlySavings - Navigate to page .png')
 
 "Step 10: Take full page screenshot as checkpoint"
 

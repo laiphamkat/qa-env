@@ -14,78 +14,78 @@
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>6d326ae8-1bde-4dca-90ee-28eb69445f68</id>
+        <id>e0c6e717-d662-4830-9b2b-aaec443dedcd</id>
         <masked>false</masked>
-        <name>input_userFinancialInputs</name>
+        <name>input_userFinancialData</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>5a143d9f-6920-4d05-a622-3cd323bea744</id>
+        <id>1fac09a2-93ab-4da5-8dde-6caf2ac6c0c6</id>
         <masked>false</masked>
-        <name>input_userFinancialInputs_1</name>
+        <name>input_userFinancialData_1</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>38195f09-c3cc-4716-bcb0-cf4c17bf62e6</id>
+        <id>03ab911e-4e20-42ee-aed3-564ccd87ffe4</id>
         <masked>false</masked>
-        <name>input_userFinancialInputs_2</name>
+        <name>input_userFinancialData_2</name>
     </variable>
     <variable>
         <defaultValue>'So, how old are you?'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>f0a5450c-ee03-4d78-b286-7025eadefaba</id>
+        <id>cf1d8e9b-15c4-497b-b955-7d1978506dc6</id>
         <masked>false</masked>
-        <name>input_userFinancialInputs_internalLabel</name>
+        <name>input_userFinancialData_internalLabel</name>
     </variable>
     <variable>
         <defaultValue>'So, how old are you?'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>9b8a522d-c691-4396-b8e3-d5d9fd8e6fb3</id>
+        <id>a98c9bf3-e5e3-4e25-ba92-8ebc6505a321</id>
         <masked>false</masked>
-        <name>input_userFinancialInputs_internalLabel_1</name>
+        <name>input_userFinancialData_internalLabel_1</name>
     </variable>
     <variable>
         <defaultValue>'How much do you earn per year?'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>f20ca7bf-c0b2-481b-9368-67bb2923def7</id>
+        <id>31df6d6c-8dcf-4fee-a672-631109b56b6c</id>
         <masked>false</masked>
-        <name>input_userFinancialInputs_internalLabel_2</name>
+        <name>input_userFinancialData_internalLabel_2</name>
     </variable>
     <variable>
         <defaultValue>'How much do you earn per year?'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>dec56b2b-915e-431e-a157-0888dba873aa</id>
+        <id>ad4d3263-6566-4dd0-8197-66231f758da7</id>
         <masked>false</masked>
-        <name>input_userFinancialInputs_internalLabel_3</name>
+        <name>input_userFinancialData_internalLabel_3</name>
     </variable>
     <variable>
         <defaultValue>'How much have you saved for'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>575bf4ef-25eb-4eab-836d-f9401e71b3c7</id>
+        <id>5bd48777-bf02-4a3c-92ef-6e4cb5cb54cc</id>
         <masked>false</masked>
-        <name>input_userFinancialInputs_internalLabel_4</name>
+        <name>input_userFinancialData_internalLabel_4</name>
     </variable>
     <variable>
         <defaultValue>'How much have you saved for'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>5f0c4d39-eb69-46aa-8f97-9309267930a4</id>
+        <id>0028f32f-40c1-4473-ba29-d2d15789314a</id>
         <masked>false</masked>
-        <name>input_userFinancialInputs_internalLabel_5</name>
+        <name>input_userFinancialData_internalLabel_5</name>
     </variable>
     <variable>
         <defaultValue>'What are your monthly savings?'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>59bc3261-e1ac-4e10-9dc3-9527aa34f163</id>
+        <id>fcc4e804-52d2-47ba-b744-7b24366c3309</id>
         <masked>false</masked>
-        <name>input_userFinancialInputs_internalLabel_6</name>
+        <name>input_userFinancialData_internalLabel_6</name>
     </variable>
     <variable>
         <defaultValue>'Next arrow'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>95890788-ce1c-46d7-a3c2-6ea1940d928c</id>
+        <id>27cb84de-1f5a-4a68-8c00-3902d0486a17</id>
         <masked>false</masked>
-        <name>link_navigationMenu_internalRoleLinkName</name>
+        <name>link_navigation_internalRoleLinkName</name>
     </variable>
 </TestCaseEntity>

@@ -1,14 +1,14 @@
 {
     "steps": [
         "step 1: Navigate to */retirementcalculator",
-        "step 2: Click on input userFinancialInputs (UserAge)",
-        "step 3: Enter input value in input userFinancialInputs (UserAge)",
-        "step 4: Click on input userFinancialInputs (UserAnnualIncome)",
-        "step 5: Enter input value in input userFinancialInputs (UserAnnualIncome)",
-        "step 6: Click on link navigationMenu (navigation)",
-        "step 7: Click on input userFinancialInputs (UserRetirementSavings)",
-        "step 8: Enter input value in input userFinancialInputs (UserRetirementSavings)",
-        "step 9: Click on input userFinancialInputs (UserMonthlySavings) -> Navigate to page ''",
+        "step 2: Click on input userFinancialData (MonthlySavings)",
+        "step 3: Enter input value in input userFinancialData (MonthlySavings)",
+        "step 4: Click on input userFinancialData (UserAnnualIncome)",
+        "step 5: Enter input value in input userFinancialData (UserAnnualIncome)",
+        "step 6: Click on link navigation (Next)",
+        "step 7: Click on input userFinancialData (MonthlySavings)",
+        "step 8: Enter input value in input userFinancialData (MonthlySavings)",
+        "step 9: Click on input userFinancialData (MonthlySavings) -> Navigate to page ''",
         "step 10: Take full page screenshot as checkpoint"
     ]
 }
